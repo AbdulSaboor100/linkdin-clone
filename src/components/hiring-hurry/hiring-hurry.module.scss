@@ -1,0 +1,18 @@
+.main_hiring_div{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+
+    .hiring{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        p{
+            text-align: center;
+        }
+    }
+}

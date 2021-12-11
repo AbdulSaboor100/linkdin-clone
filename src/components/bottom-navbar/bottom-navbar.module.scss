@@ -1,0 +1,45 @@
+.main_bottom_navbar{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+
+
+    .div2{
+        display: none;
+        @media only screen and (max-width :527px){
+            padding-left: 10px;
+            margin-right: 10px;
+            background-color: white ;
+        }
+        @media only screen and (max-width :767px){
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            bottom: 0;
+
+            ul{
+                @media only screen and (max-width :527px){
+                    padding-right: 50px;
+                    
+                }
+                list-style: none;
+                display: flex;
+                li{
+                    padding: 10px 10px;
+                    text-align: center;
+                    font-size: 18px;
+                    span{
+                        @media only screen and (max-width :527px){
+                            font-size: 10px;   
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
